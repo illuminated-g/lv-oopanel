@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-07-31 11:03:06" Creator="hal_dev" Comments="" ID="a1fad1487813d3b0107f6dcc7544a71e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-08-03 00:07:44" Creator="hal_dev" Comments="" ID="7e022528a5ca7411ccbebf14997562a3">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.1.0.3</Library_Version>
+    <Library_Version>0.1.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -176,6 +176,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -233,7 +234,7 @@
         <Path>Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C88EDE4C1C1C5FE9D7102E7754EE7F5</GUID>
+      <GUID>3A9A9EDE74DEE4463BD788E3CDD02B58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -422,7 +423,7 @@
         <Path>Panel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>39AF8DAF5D7AC102BDC04F2FDF56099E</GUID>
+      <GUID>8868D8D3AA1DC4A64D826888D0045FC7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -667,7 +668,7 @@
         <Path>OOPanel\ArrayManager\Get Total Height.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5DD15C947A82CB4A27057E728B5AE983</GUID>
+      <GUID>006467AB8314BE9F1B7F2A143A9A2898</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -786,7 +787,7 @@
         <Path>OOPanel\Panel\Get SubPanel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>863382064C294603111D95692F1C984B</GUID>
+      <GUID>C335AA091ABB6837753429C8AAE42069</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
