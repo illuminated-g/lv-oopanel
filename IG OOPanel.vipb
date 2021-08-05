@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-08-04 19:46:49" Creator="hal_dev" Comments="" ID="a0fed083522c3cbb9f93169d3796dc34">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-08-04 20:12:02" Creator="hal_dev" Comments="" ID="0af42fdac7a97a8bfffd1f6d762257a6">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.1.0.6</Library_Version>
+    <Library_Version>0.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL/>
-      <Release_Notes>Added refresh call after sorting panels</Release_Notes>
+      <Release_Notes>Fix missing terminal conpane connecton</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -234,7 +234,7 @@
         <Path>Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDB3DD0154C64D698D83B02D4EC07B5D</GUID>
+      <GUID>7D8FC999B13AECAB707FACCD541293E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -423,7 +423,7 @@
         <Path>Panel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D75FAD0D6D0785D74ED5C9E6A68A3E77</GUID>
+      <GUID>14F84501A788A260FC95D44109263CB6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -668,7 +668,7 @@
         <Path>OOPanel\ArrayManager\Get Total Height.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1C613BFA6537F7FC4630FEE9E1EA232D</GUID>
+      <GUID>1938CFB70C90E9C277B4629E2CBC7C85</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -787,7 +787,7 @@
         <Path>OOPanel\Panel\Get SubPanel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A9AE958C843356AB39183E4138004A1</GUID>
+      <GUID>271857C104DE32FAD5743C54CA5B780B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
