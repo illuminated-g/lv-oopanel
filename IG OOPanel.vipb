@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-09-04 12:30:02" Creator="hal_dev" Comments="" ID="a7487e96ab28c11b208f6e913269c2cb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-11-07 11:51:35" Creator="hal_dev" Comments="" ID="c29520b70481f5a84523fa852800082c">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.1.0.12</Library_Version>
+    <Library_Version>0.1.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,7 +32,7 @@
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL/>
-      <Release_Notes>Ensure scrollbar size changes with container.</Release_Notes>
+      <Release_Notes>Fix merge sort implementation in ArrayManager. Didn't properly handle when the second half of the merge had all the items that sorted earlier.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -234,7 +234,7 @@
         <Path>Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>90E3C7D40AA2C014EAAC16B0F7013A0C</GUID>
+      <GUID>25F472C8A614F6EFDA3673931CB28722</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -423,7 +423,7 @@
         <Path>Panel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>206C79D96E4A1560C237AA65A8982E9C</GUID>
+      <GUID>DBC14F25AA099F22DB19D9A91C18A82B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -668,7 +668,7 @@
         <Path>OOPanel\ArrayManager\Get Total Height.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>482DFCEC117B9BB9758A67F8C7299562</GUID>
+      <GUID>00E686CBA2929C3BA7CB3EAEC56247CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -815,7 +815,7 @@
         <Path>OOPanel\Panel\Get Panel Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>67FEF9D54FD893BBED451E342022C946</GUID>
+      <GUID>54BF397E04A10F61A43F04EB04C7BE6D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
