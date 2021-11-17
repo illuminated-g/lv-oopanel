@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-11-10 20:13:04" Creator="hal_dev" Comments="" ID="019f1ad477900957096e7e6bcbfcca43">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2021-11-12 19:18:40" Creator="hal_dev" Comments="" ID="74d22a5686cc6bddf1045b6ee9a51467">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.1.0.19</Library_Version>
+    <Library_Version>0.1.0.22</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -32,7 +32,11 @@
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL/>
-      <Release_Notes>Fix missing reference cleanup in ArrayManager. Have panels startup opened but hidden so that nested array panels can register events that require owner panel to be open.</Release_Notes>
+      <Release_Notes> - Fix missing reference cleanup in ArrayManager.
+ - Have panels startup opened but hidden so that nested array panels can register events that require owner panel to be open.
+ - Add ability to set panel to transparent or colored.
+ - Mark Source-only for all VIs
+ - Provide Close Panel function for ArrayManager</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -234,7 +238,7 @@
         <Path>Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>64B6C8C9F88291416A22A394DA1918EF</GUID>
+      <GUID>3F97ADB508519F7CD1CD295578227455</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -423,7 +427,7 @@
         <Path>Panel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2F2FD0E4CDBA95971A3FF149E22E5931</GUID>
+      <GUID>5B654FC2C040FB86CC39BDD432F7DAA3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -668,7 +672,7 @@
         <Path>OOPanel\ArrayManager\Get Total Height.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8632417CD04450E078D3FC6401878D9B</GUID>
+      <GUID>249D166833819BEAF3BC6F5A1628B87C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -815,7 +819,7 @@
         <Path>OOPanel\Panel\Get Panel Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0AB6CB908A0ABD95E5B4ED6026CD045B</GUID>
+      <GUID>0218D8D2A9041815867C321998172FD9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
