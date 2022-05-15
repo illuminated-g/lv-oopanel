@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="OOPanel.lvlib:ArrayPanel.lvclass" Type="Parent" URL="../../../../../../../vi.lib/IlluminatedG/IG OOPanel/OOPanel/ArrayPanel/ArrayPanel.lvclass"/>
+		<Item Name="OOPanel.lvlib:ArrayPanel.lvclass" Type="Parent" URL="../../../../OOPanel/ArrayPanel/ArrayPanel.lvclass"/>
 	</Item>
 	<Item Name="DA Parent.ctl" Type="Class Private Data" URL="DA Parent.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

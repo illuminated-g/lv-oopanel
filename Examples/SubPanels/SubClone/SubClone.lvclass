@@ -21,7 +21,7 @@
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="OOPanel.lvlib:Panel.lvclass" Type="Parent" URL="../../../../../../../vi.lib/IlluminatedG/IG OOPanel/OOPanel/Panel/Panel.lvclass"/>
+		<Item Name="OOPanel.lvlib:Panel.lvclass" Type="Parent" URL="../../../../OOPanel/Panel/Panel.lvclass"/>
 	</Item>
 	<Item Name="SubClone.ctl" Type="Class Private Data" URL="SubClone.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

@@ -24,7 +24,7 @@
 
 </Property>
 	<Item Name="Parent Libraries" Type="Parent Libraries">
-		<Item Name="OOPanel.lvlib:Panel.lvclass" Type="Parent" URL="../../../../../../../vi.lib/IlluminatedG/IG OOPanel/OOPanel/Panel/Panel.lvclass"/>
+		<Item Name="OOPanel.lvlib:Panel.lvclass" Type="Parent" URL="../../../../OOPanel/Panel/Panel.lvclass"/>
 	</Item>
 	<Item Name="Cloned Panel.ctl" Type="Class Private Data" URL="Cloned Panel.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
