@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2022-04-13 01:20:24" Creator="hal_dev" Comments="" ID="3b2ca10a87c29898071a5635197ac028">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2023-02-08 22:49:19" Creator="hal_dev" Comments="" ID="2c47b4100084c70589895fd61fc43237">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.1.0.24</Library_Version>
+    <Library_Version>0.2.0.25</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\build\vip</Library_Output_Folder>
+    <Library_Output_Folder>..\vip</Library_Output_Folder>
     <Company_Name>IlluminatedG</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -36,12 +36,9 @@ Panel management includes moving VI panels around different subpanels, popping s
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-oopanel</URL>
-      <Release_Notes> - Fix missing reference cleanup in ArrayManager.
- - Have panels startup opened but hidden so that nested array panels can register events that require owner panel to be open.
- - Add ability to set panel to transparent or colored.
- - Mark Source-only for all VIs
- - Provide Close Panel function for ArrayManager
- - Fix bad linkage to Panel typedefs that were moved to containing library</Release_Notes>
+      <Release_Notes>0.2.0.24
+ - Finish wiring up Has Panel? output on Get Panel from SubPanel.
+ - Fix LabVIEW linker error with Close Reason enumeration in a panel's Close event.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -126,6 +123,9 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>OOPanel/PanelLayout</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -243,7 +243,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>599E137E2A434C10FDB34D5F4DAC4FA6</GUID>
+      <GUID>9D1D7FBFFBB5D3AB4B0E098B41458310</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -432,7 +432,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>Panel</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>955F0CF10B27FEA2FA59891230D60165</GUID>
+      <GUID>A451AD1C4231213A17C45110804D6E98</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -677,7 +677,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\ArrayManager\Get Total Height.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2606001606D5A67AD9BA55922F3423FF</GUID>
+      <GUID>B3F10E7425EFFC0220EB5B50EBE7DEE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -824,7 +824,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\Panel\Get Panel Events.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>74C0AACD260B501D907A787C9BD1FCAC</GUID>
+      <GUID>41F6888AD036ECA374A06DC78AC4B0A3</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
