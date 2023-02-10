@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="SubClone.lvclass" Type="LVClass" URL="../SubClone/SubClone.lvclass"/>
+	<Item Name="Tabbed Subpanels.vi" Type="VI" URL="../Tabbed Subpanels.vi"/>
 </Library>
