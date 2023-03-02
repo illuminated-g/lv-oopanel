@@ -8,4 +8,5 @@
 	<Item Name="Element B.lvclass" Type="LVClass" URL="../Element B/Element B.lvclass"/>
 	<Item Name="Element Base.lvclass" Type="LVClass" URL="../Element Base/Element Base.lvclass"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+	<Item Name="Scroll into View.vi" Type="VI" URL="../Scroll into View.vi"/>
 </Library>
