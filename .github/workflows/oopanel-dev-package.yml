@@ -6,7 +6,7 @@ on:
       - main
 jobs:
   setup:
-    runs-on: [Windows, lv-2020]
+    runs-on: [self-hosted, Windows, lv-2020]
     steps:
       - uses: actions/checkout@v3
   test:
