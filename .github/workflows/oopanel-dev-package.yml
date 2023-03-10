@@ -5,17 +5,8 @@ on:
     branches:
       - main
 jobs:
-  setup:
+  dev-package:
     runs-on: [self-hosted, Windows, lv-2020]
     steps:
       - uses: actions/checkout@v3
-  test:
-    runs-on: [windows, lv-2020]
-    needs: [setup]
-    steps:
-      - run: dir
-  package:
-    runs-on: [windows, lv-2020]
-    needs: [test]
-    steps:
       - run: dir
