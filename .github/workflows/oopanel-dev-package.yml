@@ -13,9 +13,9 @@ jobs:
     runs-on: [windows, lv-2020]
     needs: [setup]
     steps:
-      - dir
+      - run: dir
   package:
     runs-on: [windows, lv-2020]
     needs: [test]
     steps:
-      - dir
+      - run: dir
