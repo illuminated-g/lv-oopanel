@@ -22,6 +22,9 @@
 			<Item Name="Inherited Panel" Type="Folder">
 				<Item Name="Display As.lvlib" Type="Library" URL="../Examples/Display As/Display As.lvlib"/>
 			</Item>
+			<Item Name="Nested" Type="Folder">
+				<Item Name="Nested.lvlib" Type="Library" URL="../Examples/Nested/Nested.lvlib"/>
+			</Item>
 			<Item Name="SubPanels" Type="Folder">
 				<Item Name="SubPanels.lvlib" Type="Library" URL="../Examples/SubPanels/SubPanels.lvlib"/>
 			</Item>
