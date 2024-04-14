@@ -15,6 +15,7 @@
 	<Item Name="VI Types" Type="Folder">
 		<Item Name="Sort VI Ref Type.vi" Type="VI" URL="../Sort VI Ref Type.vi"/>
 	</Item>
+	<Item Name="2DArrayManager.lvclass" Type="LVClass" URL="../2DArrayManager/2DArrayManager.lvclass"/>
 	<Item Name="ArrayManager.lvclass" Type="LVClass" URL="../ArrayManager/ArrayManager.lvclass"/>
 	<Item Name="ArrayPanel.lvclass" Type="LVClass" URL="../ArrayPanel/ArrayPanel.lvclass"/>
 	<Item Name="Manager.lvclass" Type="LVClass" URL="../Manager/Manager.lvclass"/>
