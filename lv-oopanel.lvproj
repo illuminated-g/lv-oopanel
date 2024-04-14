@@ -25,6 +25,9 @@
 			<Item Name="Inherited Panel" Type="Folder">
 				<Item Name="Display As.lvlib" Type="Library" URL="../Examples/Display As/Display As.lvlib"/>
 			</Item>
+			<Item Name="Nested" Type="Folder">
+				<Item Name="Nested.lvlib" Type="Library" URL="../Examples/Nested/Nested.lvlib"/>
+			</Item>
 			<Item Name="SubPanels" Type="Folder">
 				<Item Name="SubPanels.lvlib" Type="Library" URL="../Examples/SubPanels/SubPanels.lvlib"/>
 			</Item>
@@ -46,6 +49,7 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ExecAnchor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Illuminated G/IG ExecAnchor/ExecAnchor/ExecAnchor.lvclass"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
