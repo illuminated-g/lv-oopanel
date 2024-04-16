@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="2DArrayPanel.lvclass" Type="LVClass" URL="../2DArrayPanel/2DArrayPanel.lvclass"/>
 	<Item Name="2DArrayPanel2.lvclass" Type="LVClass" URL="../2DArrayPanel2/2DArrayPanel2.lvclass"/>
+	<Item Name="ExBlank.lvclass" Type="LVClass" URL="../ExBlank/ExBlank.lvclass"/>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 	<Item Name="Synced Example.vi" Type="VI" URL="../Synced Example.vi"/>
 </Library>
