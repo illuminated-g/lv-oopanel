@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2024-04-16 14:11:14" Creator="hal_dev" Comments="" ID="db01132ee409b431084594712581da4e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-07-31 01:58:00" Modified_Date="2024-04-17 13:19:39" Creator="hal_dev" Comments="" ID="d150df65245730ddd0b127d639f230f3">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_OOPanel</Package_File_Name>
-    <Library_Version>0.4.0.35</Library_Version>
+    <Library_Version>0.4.1.36</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -36,7 +36,9 @@ Panel management includes moving VI panels around different subpanels, popping s
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-oopanel</URL>
-      <Release_Notes>0.4.0.34
+      <Release_Notes>0.4.1.35
+- Fixed layout handling of blank panels
+0.4.0.34
 - Added ability to specify a panel to use for empty element locations.
 0.3.2.33
 - Set subpanels invisible once emptied so they don't block mouse interactions
@@ -262,7 +264,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>2D Array</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4B47DBC2A0BC6C99C07337ABAC0668D</GUID>
+      <GUID>23E87536331ED259C3A86A1172502535</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -479,7 +481,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\Manager\Close Panel.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4603F8992B59F4D95CBA5E09E22C4CEA</GUID>
+      <GUID>A649086C9D3B603F56C0F05BD3080E17</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -738,7 +740,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\ArrayManager\Scroll Panel Into View.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CF26AF06DF95BFC8293F259C531C4DB4</GUID>
+      <GUID>A231E4C18D12F68777E08FA2DA3387A0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -913,7 +915,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\Panel\Get Close.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D8BB3DF068F22D21DDFC00CEE0B9EEB</GUID>
+      <GUID>5910917D48DF9BDF04BD9EC47406AEE6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1116,7 +1118,7 @@ Panel management includes moving VI panels around different subpanels, popping s
         <Path>OOPanel\2DArrayManager\Specify Panel Blank.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4DF8C2A5EDD4AC6E0AC452ED7FA89F2</GUID>
+      <GUID>9707137BCA66C4AA7AB065368E785EB9</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
