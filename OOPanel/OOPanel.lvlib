@@ -5,9 +5,12 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Data Types" Type="Folder">
-		<Item Name="Close Reason.ctl" Type="VI" URL="../Panel/Close Reason.ctl"/>
-		<Item Name="Desired Size.ctl" Type="VI" URL="../ArrayPanel/Desired Size.ctl"/>
-		<Item Name="Visibility State.ctl" Type="VI" URL="../Panel/Visibility State.ctl"/>
+		<Item Name="2D Index.ctl" Type="VI" URL="../2D Index.ctl"/>
+		<Item Name="2D Position.ctl" Type="VI" URL="../2D Position.ctl"/>
+		<Item Name="Close Reason.ctl" Type="VI" URL="../Close Reason.ctl"/>
+		<Item Name="Desired Size.ctl" Type="VI" URL="../Desired Size.ctl"/>
+		<Item Name="Direction.ctl" Type="VI" URL="../Direction.ctl"/>
+		<Item Name="Visibility State.ctl" Type="VI" URL="../Visibility State.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Visibility Timeout Helper.vi" Type="VI" URL="../Panel/Visibility Timeout Helper.vi"/>
