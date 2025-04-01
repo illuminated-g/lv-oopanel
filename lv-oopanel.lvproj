@@ -12,6 +12,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="ExecAnchor.lvclass" Type="LVClass" URL="../../lv-exec-anchor/ExecAnchor/ExecAnchor.lvclass"/>
+		</Item>
 		<Item Name="Example" Type="Folder">
 			<Item Name="2D Array" Type="Folder">
 				<Item Name="2D Array Example.lvlib" Type="Library" URL="../Examples/2DArray/2D Array Example.lvlib"/>
@@ -33,6 +36,7 @@
 			</Item>
 		</Item>
 		<Item Name="OOPanel.lvlib" Type="Library" URL="../OOPanel/OOPanel.lvlib"/>
+		<Item Name="Panel Filter.lvclass" Type="LVClass" URL="../OOPanel/Panel Filter/Panel Filter.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -49,7 +53,6 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="ExecAnchor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/IlluminatedG/IG ExecAnchor/ExecAnchor/ExecAnchor.lvclass"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
